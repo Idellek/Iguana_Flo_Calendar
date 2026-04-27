@@ -1,0 +1,45 @@
+{
+  "user": "User1",
+  "cycle_length": 28,
+  "average_cycle_length": 28,
+  "last_period_start": "2026-04-24",
+  "cycle_variation_daya": 3,
+  "phases": [
+    {
+      "phase": "menstrual",
+      "start_day": 1,
+      "end_day": 5,
+      "energy": "low",
+      "mood": "tired",
+      "recommendation": "Light schedule, avoid important meetings",
+      "color_id": "11"
+    },
+    {
+      "phase": "follicular",
+      "start_day": 6,
+      "end_day": 13,
+      "energy": "high",
+      "mood": "confident",
+      "recommendation": "Schedule presentations, interviews and creative work",
+      "color_id": "2"
+    },
+    {
+      "phase": "ovulation",
+      "start_day": 14,
+      "end_day": 16,
+      "energy": "peak",
+      "mood": "social",
+      "recommendation": "Best time for important decisions and social events",
+      "color_id": "5"
+    },
+    {
+      "phase": "luteal",
+      "start_day": 17,
+      "end_day": 28,
+      "energy": "declining",
+      "mood": "introverted",
+      "recommendation": "Focus on individual tasks, avoid heavy scheduling",
+      "color_id": "9"
+    }
+  ]
+}
