@@ -46,10 +46,10 @@ Flo Health Data (JSON) → IguanaX Timer → Lua Translator → Google Calendar 
 ## Project Structure
 Iguana_Flo_Calendar/
 ├── iguana/
-│   ── main.lua          # Entry point and orchestrator
-│   ── cycle_reader.lua  # Reads and parses cycle JSON data
-│   ── phase_calc.lua    # Calculates cycle day and phase
-│   └── calendar_api.lua # Google Calendar API integration
+│── main.lua          # Entry point and orchestrator
+│── cycle_reader.lua  # Reads and parses cycle JSON data
+│── phase_calc.lua    # Calculates cycle day and phase
+│ └── calendar_api.lua # Google Calendar API integration
 ├── cycle_data.json       # Sample Flo health data export
 ├── calendar_auth.py      # Google OAuth authentication
 ├── cycle_to_calendar.py  # Python Calendar integration
